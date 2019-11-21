@@ -27,7 +27,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-expand-md navbar-light bg-light font-weight-bold">
+        <nav class="navbar navbar-expand-md navbar-light font-weight-bold">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
                     <!--<img src="/svg/logo.svg" height="40" class="pl-2">-->

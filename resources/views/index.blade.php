@@ -7,7 +7,7 @@
 
     <style>
         #particles-js{
-            position: fixed;
+            position: absolute;
             top: 0;
             width: 100%;
             height: 100%;
@@ -21,7 +21,7 @@
         <p class="lead font-weight-bold">With a website designed for the future.</p>
         <p class="lead">I'm Jamie, a freelance, full-stack developer & designer based in Arizona.</p>
 
-        <div class="d-flex pt-3">
+        <div class="d-flex pt-3 justify-content-md-start justify-content-center">
             <a class="btn btn-lg btn-outline-primary rounded-0" href="#">My Services</a>
             <a class="btn btn-lg btn-outline-primary rounded-0 ml-3" href="#">Login</a>
         </div>
