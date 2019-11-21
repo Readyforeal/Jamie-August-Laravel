@@ -3,7 +3,7 @@
 @section('content')
 <div class="jumbotron jumbotron-fluid text-md-left text-center mt-5 mb-5" style="background-color: rgba(0,0,0,0);">
     
-    <div id="particles-js"></div>
+    <!--<div id="particles-js"></div>-->
 
     <style>
         #particles-js{
@@ -22,15 +22,17 @@
         <p class="lead">I'm Jamie, a freelance, full-stack developer & designer based in Arizona.</p>
 
         <div class="d-flex pt-3 justify-content-md-start justify-content-center">
-            <a class="btn btn-lg btn-outline-primary rounded-0" href="#">My Services</a>
+            <a class="btn btn-lg btn-primary rounded-0" href="#">Services</a>
+            @guest
             <a class="btn btn-lg btn-outline-primary rounded-0 ml-3" href="#">Login</a>
+            @endguest
         </div>
     </div>
 </div>
 
 <div class="w-100 bg-light">
 
-    <div class="container p-5" style="background: rgb(209,224,252); background: linear-gradient(90deg, rgba(209,224,252,1) 0%, rgba(223,225,255,1) 100%);">
+    <div class="container p-5 text-primary" style="background-color: rgba(67,83,255,.1);">
         <div class="row">
             <div class="col">
                 <h1 class="display-4 font-weight-bold">Design</h1>
@@ -45,9 +47,9 @@
 
 </div>
 
-<div class="w-100 bg-light pt-5">
+<div class="w-100 bg-light pt-5 text-primary">
 
-    <div class="container p-5" style="background: rgb(241,223,249); background: linear-gradient(90deg, rgba(223,225,255,1) 0%, rgba(241,223,249,1) 100%);">
+    <div class="container p-5" style="background-color: rgba(67,83,255,.1);">
         <div class="row">
             <div class="col">
                 <h1 class="display-4 font-weight-bold">Develop</h1>
@@ -62,9 +64,9 @@
 
 </div>
 
-<div class="w-100 bg-light pt-5">
+<div class="w-100 bg-light pt-5 text-primary">
 
-    <div class="container bg-light p-5" style="background: rgb(241,223,249); background: linear-gradient(90deg, rgba(241,223,249,1) 0%, rgba(244,241,239,1) 100%);">
+    <div class="container p-5" style="background-color: rgba(67,83,255,.1);">
         <div class="row">
             <div class="col">
                 <h1 class="display-4 font-weight-bold">Deploy</h1>
@@ -85,9 +87,9 @@
 
 </div>
 
-<div class="w-100 bg-light pt-5">
+<div class="w-100 bg-light pt-5 text-primary">
 
-    <div class="container bg-light p-5" style="background: rgb(244,241,239); background: linear-gradient(90deg, rgba(244,241,239,1) 0%, rgba(233,243,246,1) 100%);">
+    <div class="container p-5" style="background-color: rgba(67,83,255,.1);">
         <div class="row">
             <div class="col">
                 <h1 class="display-4 font-weight-bold">Be Discovered</h1>

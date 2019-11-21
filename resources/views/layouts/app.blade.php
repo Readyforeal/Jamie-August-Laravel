@@ -33,7 +33,7 @@
                     <!--<img src="/svg/logo.svg" height="40" class="pl-2">-->
                     <span class="font-weight-bold">Jamie August</span>
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -186,34 +186,34 @@
         </main>
     </div>
 
-    <div id="footer" class="mt-5" style="background-color: #101010">
-        <div class="container p-5 text-light">
-            <h1 class="display-4">Need a website?</h1>
+    <div id="footer" class="mt-5" style="background-color: rgba(67,83,255,.1);">
+        <div class="container p-5 text-primary">
+            <h1 class="display-4 font-weight-bold">Need a website?</h1>
             <h3>Let's make it happen.</h3>
             <a class="btn btn-lg btn-primary rounded-0 mt-3" href="#">Get started</a>
 
             <div class="row pt-5 mt-5">
                 <div class="col">
                     <p class="lead">Services</p>
-                    <a href="#" class="nav-link text-light">Web Design</a>
-                    <a href="#" class="nav-link text-light">Hosting</a>
-                    <a href="#" class="nav-link text-light">SEO</a>
+                    <a href="#" class="nav-link">Web Design</a>
+                    <a href="#" class="nav-link">Hosting</a>
+                    <a href="#" class="nav-link">SEO</a>
                 </div>
 
                 <div class="col">
                     <p class="lead">Resources</p>
-                    <a href="#" class="nav-link text-light">Blog</a>
-                    <a href="#" class="nav-link text-light">About</a>
-                    <a href="#" class="nav-link text-light">Contact</a>
-                    <a href="#" class="nav-link text-light">Hire</a>
+                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">Hire</a>
                 </div>
 
                 <div class="col">
                     <p class="lead">Connect</p>
-                    <a href="#" class="nav-link text-light"><h4 class="ion ion-logo-youtube"></h4></a>
-                    <a href="#" class="nav-link text-light"><h4 class="ion ion-logo-twitter"></h4></a>
-                    <a href="#" class="nav-link text-light"><h4 class="ion ion-logo-instagram"></h4></a>
-                    <a href="#" class="nav-link text-light"><h4 class="ion ion-logo-linkedin"></h4></a>
+                    <a href="#" class="nav-link"><h4 class="ion ion-logo-youtube"></h4></a>
+                    <a href="#" class="nav-link"><h4 class="ion ion-logo-twitter"></h4></a>
+                    <a href="#" class="nav-link"><h4 class="ion ion-logo-instagram"></h4></a>
+                    <a href="#" class="nav-link"><h4 class="ion ion-logo-linkedin"></h4></a>
                 </div>
             </div>
         </div>
