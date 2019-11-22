@@ -2123,7 +2123,7 @@ pre code {
   background-color: #f8f9fa;
   background-clip: padding-box;
   border: none;
-  border-bottom: 1px solid #ced4da;
+  border-bottom: 1px solid rgba(67,83,255,.1);
   border-radius: 0rem;
   -webkit-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -2143,10 +2143,9 @@ pre code {
 
 .form-control:focus {
   color: #495057;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  background-color: rgba(67,83,255,.1);
+  border-bottom: 1px solid rgba(67,83,255,.1);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(52, 144, 220, 0.25);
 }
 
 .form-control::-webkit-input-placeholder {
@@ -2245,7 +2244,7 @@ select.form-control:focus::-ms-value {
   padding: 0.5rem 1rem;
   font-size: 1.125rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 0;
 }
 
 select.form-control[size],

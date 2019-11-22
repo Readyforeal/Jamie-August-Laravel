@@ -5,7 +5,7 @@
 </head>
 <body>
     <header>
-        @include('includes.user-header')
+        @include('includes.guest-header')
     </header>
 
     <main>
@@ -13,7 +13,7 @@
     </main>
 
     <footer>
-        
+        @include('includes.footer')
     </footer>
 </body>
 
@@ -21,12 +21,12 @@
 
     (function ($) {
         $(document).ready(function(){
+            $("#scrolledNavbar").removeClass("d-none");
             $("#scrolledNavbar").hide();
 
             $(function(){
                 $(window).scroll(function(){
-                    if($(this).scrollTop() > 100){
-                        
+                    if($(this).scrollTop() > 0){
                         $("#scrolledNavbar").slideDown(80);
                     }
                     else
