@@ -19,4 +19,20 @@ Route::view('/services', 'services');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+/* 
+// User Dashboard
+*/
+
+Route::get('/home', 'HomeController@home')->name('home');
+
+Route::get('/websites', 'HomeController@websites')->name('websites');
+
+Route::get('/profile', 'HomeController@profile')->name('profile');
+
+Route::get('/billing', 'HomeController@billing')->name('billing');
+
+Route::get('/security', 'HomeController@security')->name('security');
+
+Route::get('/help', 'HomeController@help')->name('help');
+
+Route::get('/start', 'HomeController@start')->name('start');
